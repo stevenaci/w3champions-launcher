@@ -25,3 +25,7 @@
 *.gif           binary
 *.jpg           binary
 *.png           binary
+
+# For Github to correctly show this as a Typescript file,
+# we tell linguist to not tally css files.
+*.css linguist-detectable=false
